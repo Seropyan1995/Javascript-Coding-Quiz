@@ -23,5 +23,4 @@ The following images show the web application's appearance and functionality:
 
 ![Displays end of quiz scores. ](/assets/Demo%205.png)
 
-
 The webpage can be found at [Javascript-Coding-Quiz](https://seropyan1995.github.io/Javascript-Coding-Quiz/)
