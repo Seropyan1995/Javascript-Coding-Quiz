@@ -4,16 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./CSS/style.css"/>
 </head>
+
 <body>
-    <header>
+    <div class="timer">Time: <span id= "time">0</span></div>
 
-    </header>
-    <main>
+    <div class="container">
+        <div id="start-screen">
+            <h1>Javascript Coding Quiz</h1>
+            <p>
+                You will have 60 seconds to answer as many questions as you can! <br>
+                For each incorrect asnwer, 15 seconds will be deducted! <br>
+                Good luck and click start quiz button when you are ready! <br>
+            </p>
+            <button id="start-button">Start Quiz</button>
+        </div>
 
-    </main>
-    <script src="script.js"></script>
+        <div id="questions" style="display: none">
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
+
+        <div id="end-screen" style="display: none">
+            <h2>All done!</h2>
+            <p>Your final score is <span id="final-score"></span>.</p>
+            <p>
+              Enter initials: <input type="text" id="initials" max="3" />
+              <button id="submit">Submit</button>
+            </p>
+        </div>
+
+        <div id="scores" style="display: none">
+            <h1>Highscores</h1>
+            <ol id="highscores"></ol>
+
+            <a href="index.html"><button>Go Back</button></a>
+            <button id="clear">Clear Highscores</button>
+        </div>
+
+        <div id="feedback" class="feedback hide"></div>
+
+    </div>
+
+
+
+    <script src="/JS/script.js"></script>
+
 </body>
 </html>

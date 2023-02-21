@@ -1,0 +1,73 @@
+.timer {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+
+.container {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-family: monospace,'Times New Roman', Times, serif;
+    font-size:100%;
+    background-color: rgb(239, 11, 11);
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.3s;
+    border: 3px solid blue;
+
+}
+
+button:hover {
+    background-color: silver;
+    color: black;
+}
+
+#questions {
+    display: none;
+}
+
+#end-screen {
+    display: none;
+}
+
+#feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    border-top: 2px solid rgb(201, 193, 193);
+  }
+
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .choices button {
+    display: block;
+  }
+
+  input[type="text"] {
+    font-size: 125%;
+  }
+
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
