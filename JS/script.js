@@ -27,7 +27,7 @@ var questionsArray = [
     {
       question: "What keyword is used to check whether a given property is valid or not?",
       choices: ["in", "is in", "exists", "lies"],
-      answer: "body tag"
+      answer: "in"
     },
     {
       question: "When an operators value is NULL, the typeof returned by the unary operator is:",
